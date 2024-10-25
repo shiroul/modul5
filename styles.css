@@ -30,3 +30,35 @@ html, body {
     grid-area: 3 / 1 / 4 / 3; 
     background-color: black; 
 }
+
+/* #parent { 
+    display: grid; 
+    width: 100vw; 
+    height: 100vh; 
+    grid-template-areas: 
+        "header header" 
+        "side content" 
+        "footer footer"; 
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+
+#parent .child-1 { 
+    grid-area: header; 
+    background-color: blue; 
+}
+
+#parent .child-2 { 
+    grid-area: side; 
+    background-color: red; 
+}
+
+#parent .child-3 { 
+    grid-area: content; 
+    background-color: green; 
+}
+
+#parent .child-4 { 
+    grid-area: footer; 
+    background-color: black; 
+} */
